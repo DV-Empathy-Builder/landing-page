@@ -1,0 +1,10 @@
+.maintext {
+  font-family: 'roboto', sans-serif;
+  font-weight: normal;
+  word-spacing: .2rem;
+}
+.maintext2 {
+  font-family: 'roboto', sans-serif;
+  font-weight: 500;
+  word-spacing: .2rem;
+}

@@ -1,0 +1,50 @@
+.maintext {
+  font-family: 'roboto', sans-serif;
+  font-weight: normal;
+  word-spacing: .2rem;
+}
+.maintext2 {
+  font-family: 'roboto', sans-serif;
+  font-weight: bold;
+  word-spacing: .2rem;
+}
+.mainpara {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+}
+.mainpara h2,
+.mainpara h3,
+.mainpara h4,
+.mainpara h5,
+.mainpara h6 {
+  font-family: 'roboto', sans-serif;
+  font-weight: normal;
+  word-spacing: .2rem;
+}
+.mainform {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mainform .main h3 {
+  font-family: 'roboto', sans-serif;
+  font-weight: bold;
+  word-spacing: .2rem;
+}
+.mainform .main .maincosts {
+  display: flex;
+  flex-flow: column wrap;
+}
+.mainform .main2 h3 {
+  font-family: 'roboto', sans-serif;
+  font-weight: bold;
+  word-spacing: .2rem;
+}
+.mainform .main2 .maincosts2 {
+  display: flex;
+  flex-flow: column wrap;
+}
+button {
+  display: flex;
+  align-items: center;
+}
