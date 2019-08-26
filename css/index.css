@@ -134,6 +134,8 @@ html {
   align-items: center;
   margin-right: 3%;
   justify-content: space-between;
+  padding-top: 38px;
+  padding-bottom: 95px;
 }
 .navigation .logo-container {
   width: 15%;
@@ -143,8 +145,8 @@ html {
   width: 100%;
 }
 .navigation .links {
-  width: 80%;
-  font-size: 5rem;
+  width: 75%;
+  font-size: 4.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -163,4 +165,22 @@ html {
   border-radius: 35px;
   border: 2px solid #96D3CD;
   padding: 20px 40px;
+}
+.header-img {
+  position: relative;
+}
+.header-img img {
+  width: 100%;
+}
+.header-img p {
+  z-index: 1;
+  position: absolute;
+  top: 48%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  font-size: 15rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
