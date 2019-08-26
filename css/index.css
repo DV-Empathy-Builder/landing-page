@@ -129,6 +129,13 @@ table {
 html {
   font-size: 62.5%;
 }
+* {
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+}
 .navigation {
   display: flex;
   align-items: center;
@@ -175,12 +182,12 @@ html {
 .header-img p {
   z-index: 1;
   position: absolute;
-  top: 48%;
+  top: 50%;
   left: 0;
   right: 0;
   text-align: center;
   color: white;
-  font-size: 15rem;
+  font-size: 18rem;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
