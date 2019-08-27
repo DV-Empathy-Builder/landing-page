@@ -75,19 +75,23 @@ h6 {
 .mainform .main .maincosts {
   display: flex;
   flex-flow: column;
-  margin-bottom: 3%;
   font-family: 'Merriweather', serif;
   letter-spacing: 1.52px;
   font-size: .8rem;
 }
 .mainform .main .maincosts .textbox {
   margin-bottom: 3%;
+  margin-top: 2%;
   background-color: #fafafa;
   border-radius: 2px;
   border: 1px solid #979797;
   box-sizing: border-box;
-  width: 15.6rem;
-  height: 2rem;
+  height: 40px;
+  width: 266px;
+  font-size: 1.6rem;
+  font-family: 'Merriweather', serif;
+  letter-spacing: 1.52px;
+  font-size: .8rem;
 }
 .mainform .main2 {
   width: 150%;
@@ -111,21 +115,43 @@ h6 {
 .mainform .main2 .maincosts2 {
   display: flex;
   flex-flow: column;
-  margin-bottom: 3%;
   font-family: 'Merriweather', serif;
   letter-spacing: 1.52px;
   font-size: .8rem;
 }
 .mainform .main2 .maincosts2 .textbox {
-  margin-bottom: 3%;
+  margin-bottom: 5%;
+  margin-top: 3%;
   background-color: #fafafa;
   border-radius: 2px;
   border: 1px solid #979797;
-  width: 15.6rem;
-  height: 2rem;
+  height: 40px;
+  width: 266px;
+  font-size: 1.6rem;
   box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  letter-spacing: 1.52px;
+  font-size: .8rem;
 }
 button {
+  margin-left: 35%;
+  box-sizing: border-box;
+  height: 70px;
+  width: 419px;
+  border: 2px solid #E1F9F6;
+  border-radius: 32px;
+  background-color: #FFFFFF;
+  font-family: 'roboto', sans-serif;
+  font-weight: normal;
+  word-spacing: .2rem;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+  color: #E1F9F6;
+  font-weight: bold;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+button:hover {
   margin-left: 35%;
   box-sizing: border-box;
   height: 70px;
@@ -137,23 +163,9 @@ button {
   font-weight: normal;
   word-spacing: .2rem;
   letter-spacing: 2px;
-  font-size: 21px;
+  font-size: 1.3rem;
   color: #000000;
   font-weight: bold;
-}
-button:hover {
-  margin-left: 35%;
-  box-sizing: border-box;
-  height: 70px;
-  width: 419px;
-  border: 2px solid #96D3CD;
-  border-radius: 32px;
-  background-color: #FFFFFF;
-  font-family: 'roboto', sans-serif;
-  font-weight: normal;
-  word-spacing: .2rem;
-  letter-spacing: 2px;
-  font-size: 21px;
-  color: #96D3CD;
-  font-weight: bold;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }

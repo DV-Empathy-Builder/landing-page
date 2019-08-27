@@ -53,16 +53,18 @@ h6 {
     .maincosts {
       display: flex;
       flex-flow: column;
-      margin-bottom: 3%;
       .merriweather();
       .textbox {
         margin-bottom: 3%;
+        margin-top: 2%;
         background-color: #fafafa;
         border-radius: 2px;
         border: 1px solid @border-color;
         box-sizing: border-box;
-        width: 15.6rem;
-        height: 2rem;
+        height: 40px;
+        width: 266px;
+        font-size: 1.6rem;
+        .merriweather();
       }
     } //closes maincosts
   } //closes main
@@ -83,47 +85,55 @@ h6 {
     .maincosts2 {
       display: flex;
       flex-flow: column;
-      margin-bottom: 3%;
       .merriweather();
       .textbox {
-        margin-bottom: 3%;
+        margin-bottom: 5%;
+        margin-top: 3%;
         background-color: #fafafa;
         border-radius: 2px;
         border: 1px solid @border-color;
-        width: 15.6rem;
-        height: 2rem;
+        height: 40px;
+        width: 266px;
+        font-size: 1.6rem;
         box-sizing: border-box;
+        .merriweather();
       }
     } //closes maincosts
   } //closes main
 } //closes mainpage
 
 
-button{
-    margin-left: 35%;
-    box-sizing: border-box;	
-    height: 70px;	
-    width: 419px;	
-    border: 2px solid #96D3CD;	
-    border-radius: 32px;	
-    background-color: #96D3CD;
-    .maintext();
-    font-size: 21px;
-    color: #000000;
-    font-weight: bold;
-  
-  }
-button:hover {
+button {
   margin-left: 35%;
   box-sizing: border-box;	
   height: 70px;	
   width: 419px;	
-  border: 2px solid #96D3CD;	
+  border: 2px solid @button-hover;	
   border-radius: 32px;	
   background-color: #FFFFFF;
   .maintext();
-  font-size: 21px;
-  color: #96D3CD;
+  font-size: 1.3rem;
+  color: @button-hover;
   font-weight: bold;
+  margin-top: 3%;
+  margin-bottom: 3%;
+
+}
+
+
+button:hover{
+  margin-left: 35%;
+  box-sizing: border-box;	
+  height: 70px;	
+  width: 419px;	
+  border: 2px solid @button-color;
+  border-radius: 32px;	
+  background-color: @button-color;
+  .maintext();
+  font-size: 1.3rem;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 3%;
+  margin-bottom: 3%;
 
 }
