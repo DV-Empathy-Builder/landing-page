@@ -1,0 +1,10 @@
+.main {
+  width: 18.47%;
+}
+.main h3 {
+  font-family: 'roboto', sans-serif;
+}
+.main .maincosts {
+  display: flex;
+  flex-flow: column wrap;
+}
