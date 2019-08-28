@@ -132,6 +132,9 @@ h6 {
   letter-spacing: 1.52px;
   font-size: .8rem;
 }
+a {
+  text-decoration: none;
+}
 button {
   margin-left: 35%;
   box-sizing: border-box;
@@ -151,8 +154,7 @@ button {
   margin-bottom: 3%;
 }
 button:hover {
-  display: flex;
-  justify-content: center;
+  margin-left: 35%;
   box-sizing: border-box;
   height: 70px;
   width: 419px;
