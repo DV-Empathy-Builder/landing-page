@@ -1,65 +1,10 @@
-
-
-
-html{
-  font-size: 62.5%; 
-}
-
-
-
-
-
-//variables
-
-//text:
-//colors
-@dark-gray: #4A4E53; 
-@light-gray:#979797; 
-
-//navigation:
-//colors
-@nav-text: #96D3CD; 
-@active-text: #F2BACD; 
-
-@nav-font: 'Roboto', sans-serif;
-
-
-//three rectangles 
-@salmon:#D57962; 
-@light-pink: #E69D9B; 
-@teal: #90C9CA; 
-
-
-//form 
-
-//form outline
-@border-color: #979797; 
-
-
-//footer
-@footer-color: black; 
-
-
-//media queries
-
-
-@tablet: ~"(max-width:900px)"; 
-@desktop: ~"(max-width: 1190px)"; 
-@mobile: ~"(max-width:800px)";
- 
-
-
-
-/******navigation*******/
-
 .navbar{
   display:flex; 
   align-items:center; 
   margin-right:3%; 
   justify-content:space-between; 
   padding-top:4rem; 
-  padding-bottom:4rem; 
-
+  padding-bottom:5rem; 
   .logo-container{
     width:15%; 
     height: 40%;
@@ -76,14 +21,9 @@ html{
               display:flex; 
               align-items:center; 
               justify-content:space-between; 
-
-              @media @desktop{
-                font-size:.9rem;
-              }
-              ul{
+              ul {
                 text-align: start; 
                 display:flex; 
-                list-style:none;
               }
               a{
                   text-decoration: none; 
@@ -120,7 +60,7 @@ html{
   
 
 
-}
+    
 
 
 
@@ -131,17 +71,15 @@ html{
 
   .navbar{
     display:flex; 
-    align-items:center; 
     img-container{
       width:20%; 
       img{
         width:100%;
       }
     }
-    
   .nav{
     position:fixed; 
-    top:4.5rem; 
+    top:0; 
     right:0; 
     z-index:2; 
   
@@ -154,7 +92,7 @@ html{
       z-index: 3; 
       cursor: pointer; 
       width: 5rem; 
-      height:6rem; 
+      height:5rem; 
       opacity:0; 
       
       &:checked + .hamburger-container{
@@ -320,9 +258,11 @@ html{
     
   }
   
-  
   }
 }
+}
+
+//header image and text
 
 .header-img{
   position:relative; 
@@ -349,8 +289,8 @@ html{
       }
 
       @media @mobile{
-          top:25%;
-          font-size: 3.1rem;
+          top:40%;
+          font-size: 3.5rem;
       }
   }
 }
